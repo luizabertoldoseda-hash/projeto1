@@ -2,3 +2,4 @@ import streamlit as st
 
 st.title('Luiza S')
 st.write("Esse é o meu texto")
+st.image("https://www.google.com/search?sca_esv=06de5ba07996f893&sxsrf=ANbL-n53njrrLmr9WBhMkjsEO2YeOGAnoA:1777399465063&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTXz9awvmwbLijfri5gfg3jJCzryL7vhFd9tevzq0zH8yUM55w9c9ZeLxcmajxCIzGFhIk3fqkQyM7Xaa5MAK9_nJJnudwjr8tQ5P5oZttUNMXYu7vLGZPTO7M-lW1opH6dl1PCiYtMkBjz0SkyCUemI6EN4XZW1kqC1tecSEi8hNNN5BSng&q=tung+tung+sahur&sa=X&ved=2ahUKEwiuvfT9kJGUAxV9BLkGHcZuAbYQtKgLegQIJxAB&biw=1920&bih=893&dpr=1#sv=CAMSVhoyKhBlLVhZRWN2UnJBRzd0QlJNMg5YWUVjdlJyQUc3dEJSTToOcmxqYS0talhoVWdZUE0gBCocCgZtb3NhaWMSEGUtWFlFY3ZSckFHN3RCUk0YADABGAcgjLeImAZKCBABGAEgASgB", caption="Legenda da Imagem", use_container_width=True)
