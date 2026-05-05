@@ -7,7 +7,7 @@ st.dataframe(df)
 sigla = st.text_input('Digite a sigla de algum partido')
 
 if sigla: 
-    filtrado = df[df["sigla"].str.lower() == sigla.lower()]
+    filtrado = df[df["partido"].str.lower() == sigla.lower()]
 
     if not filtrado.empty:
         st.write(f"Deputados do {sigla}:")
