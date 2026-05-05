@@ -6,7 +6,7 @@ st.dataframe(df)
 
 sigla = st.text_input('Digite a sigla de algum partido')
 
-if sigla 
+if sigla: 
     filtrado = df[df["sigla"].str.lower() == sigla.lower()]
 
     if not filtrado.empty:
