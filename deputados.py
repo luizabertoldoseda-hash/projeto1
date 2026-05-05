@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 df = pd.read_csv('deputados_2022.csv')
-st.dataframe(df)
+
 
 sigla = st.text_input('Digite a sigla de algum partido')
 
