@@ -22,13 +22,3 @@ if "sexo" in filtrado.columns:
 
             contagem = filtrado["sexo"].value_counts()
 
-          
-            contagem.index = contagem.index.map({"M": "Homens","F": "Mulheres"})
-
-            st.write("Distribuição por gênero:")
-            st.bar_chart(contagem)
-    else:
-            st.write("Coluna 'sexo' não encontrada no dataset.")
-
-    else:
-        st.write("Nenhum deputado encontrado desse partido.")
